@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="styles/nysl_3.css">
+
+</head>
+
+<body>
+
+    <div id="navbar">
+        <img class="logo-image" src="nysl_logo.png" alt="Trulli" width="80" height="80"> 
+        <h1 class="title">Northside Youth Soccer League</h1>
+        <div style="padding-left: 500px;">
+        <ul class="link">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="gameinformation.html">GAME INFO</a></li>
+            <li><a href="rules.html">RULES</a></li>
+            <li><a class="link1" href="registration.html">REGISTRATION</a></li>
+        </ul>
+        </div>
+    </div> 
+    
+    <div id="background-image"></div>
+
+    <div class="page-title">
+        <h2>Registration</h2>
+    </div>
+
+    <form action="show_data.html" method:"GET">
+        <label>First Name</label>
+        <input type="text" name="firstname" /></br>
+
+        <label>Last Name</label>
+        <input type="text" name="lastname" /></br>
+
+        <label>Street Address</label>
+        <input type="text" name="streetadress" /></br>
+
+        <label>City</label>
+        <input type="text" name="city" /></br>
+
+        <label>Zip Code</label>
+        <input type="text" name="zipcode" /></br>
+
+        <label>Birth Date</label>
+        <input type="date" name="birthdate" /></br>
+
+        <label>Parent/Guardian</label>
+        <input type="text" name="Parent" /></br>
+
+        <label>Contact Phone</label>
+        <input type="number" name="contactphone" /></br>
+
+        <label>Contact E-mail</label>
+        <input type="text" name="E-mail" /></br>
+
+        <label>Closest School</label>
+        <select name="closestschools">
+            <option value="closestschool" selected>AJ Katzenmaier</option>
+            <option value="closestschool">Greenbay</option>
+            <option value="closestschool">Howard A Yeager</option>
+            <option value="closestschool">Marjorie P Hart</option>
+            <option value="closestschool">North</option>
+            <option value="closestschool">South</option>
+        </select></br>
+
+        <label>Second Closest School</label>
+        <select name="secondclosestschools">
+            <option value="secondclosestschool" selected>AJ Katzenmaier</option>
+            <option value="secondclosestschool">Greenbay</option>
+            <option value="secondclosestschool">Howard A Yeager</option>
+            <option value="secondclosestschool">Marjorie P Hart</option>
+            <option value="secondclosestschool">North</option>
+            <option value="secondclosestschool">South</option>
+        </select></br>
+
+        <button type="submit">Send</button>
+
+    </form></br>
+
+    <footer>
+        <p>&copy; 2020 NYSL | All Rights Reserved</p>
+    </footer>
+      
+</body>
+
+</html>
